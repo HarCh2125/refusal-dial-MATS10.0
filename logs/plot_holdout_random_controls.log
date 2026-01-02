@@ -1,0 +1,12 @@
+Wrote: runs/plots_qwen25/controls_layer20/summary_controls.csv
+model  holdout_gen_gap_mean  holdout_gen_gap_max  holdout_best_alpha_by_max_gap  holdout_best_gap  holdout_best_edge_holdout  holdout_best_harmful  random_best_alpha_by_max_gap  random_best_gap  random_best_edge  random_best_harmful
+ inst              0.032003             0.081769                          -10.0          0.521783                   0.275717                0.7975                           0.0         0.091667          0.908333                1.000
+ base              0.016665             0.048855                            4.0          0.159925                   0.515075                0.6750                           0.0         0.066667          0.108333                0.175
+Wrote: runs/plots_qwen25/controls_layer21/summary_controls.csv
+model  holdout_gen_gap_mean  holdout_gen_gap_max  holdout_best_alpha_by_max_gap  holdout_best_gap  holdout_best_edge_holdout  holdout_best_harmful  random_best_alpha_by_max_gap  random_best_gap  random_best_edge  random_best_harmful
+ inst              0.033207             0.080891                          -10.0          0.461836                   0.395664                0.8575                           6.0         0.096250          0.903750                1.000
+ base              0.017186             0.056714                            4.0          0.145212                   0.477288                0.6225                           0.0         0.066667          0.108333                0.175
+Wrote: runs/plots_qwen25/controls_layer23/summary_controls.csv
+model  holdout_gen_gap_mean  holdout_gen_gap_max  holdout_best_alpha_by_max_gap  holdout_best_gap  holdout_best_edge_holdout  holdout_best_harmful  random_best_alpha_by_max_gap  random_best_gap  random_best_edge  random_best_harmful
+ inst              0.031001             0.080031                          -10.0          0.396757                   0.518243                0.9150                           6.0         0.094583          0.905417              1.00000
+ base              0.013676             0.046066                            6.0          0.141463                   0.546037                0.6875                          -1.0         0.071667          0.109583              0.18125

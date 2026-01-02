@@ -1,0 +1,17 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+Wrote: runs/patch_lastK_mlp_out_qwen25.json
+Example last-K means:
+1 {'harmful': -0.7, 'edge': 0.1875}
+2 {'harmful': -1.3328125, 'edge': -0.15572916666666667}
+4 {'harmful': 2.053125, 'edge': 1.5822916666666667}
+8 {'harmful': 4.74296875, 'edge': 2.448958333333333}
+12 {'harmful': 4.8171875, 'edge': 2.5697916666666667}
+16 {'harmful': 4.67734375, 'edge': 2.543229166666667}
+20 {'harmful': 4.74609375, 'edge': 2.574479166666667}
+24 {'harmful': 4.815625, 'edge': 2.534895833333333}

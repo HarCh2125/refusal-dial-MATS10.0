@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+Wrote: runs/steering_holdout_layer20_hook_resid_pre_seed3.json
+Wrote: runs/steering_holdout_layer20_hook_resid_pre_seed0_seed3.csv
+Counts: {'edge_total': 120, 'edge_train': 61, 'edge_holdout': 59, 'harmful': 80}
+Direction pre-norm: 9.202876091003418

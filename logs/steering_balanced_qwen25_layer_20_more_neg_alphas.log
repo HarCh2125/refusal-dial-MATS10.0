@@ -1,0 +1,19 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+alpha= -10.0: base(edge)=-4.602±1.116  base(harm)=-4.116±1.065  inst(edge)=-1.185±2.834  inst(harm)= 2.388±2.518
+alpha=  -8.0: base(edge)=-3.989±1.110  base(harm)=-3.541±1.061  inst(edge)=-0.231±2.900  inst(harm)= 3.322±2.444
+alpha=  -6.0: base(edge)=-3.330±1.102  base(harm)=-2.917±1.050  inst(edge)= 0.761±2.918  inst(harm)= 4.228±2.339
+alpha=  -4.0: base(edge)=-2.636±1.099  base(harm)=-2.279±1.044  inst(edge)= 1.741±2.890  inst(harm)= 5.107±2.252
+alpha=  -2.0: base(edge)=-1.936±1.108  base(harm)=-1.626±1.026  inst(edge)= 2.708±2.830  inst(harm)= 5.950±2.156
+alpha=  -1.0: base(edge)=-1.585±1.108  base(harm)=-1.293±1.003  inst(edge)= 3.184±2.774  inst(harm)= 6.360±2.107
+alpha=   0.0: base(edge)=-1.232±1.115  base(harm)=-0.964±0.997  inst(edge)= 3.649±2.735  inst(harm)= 6.748±2.058
+alpha=   1.0: base(edge)=-0.878±1.117  base(harm)=-0.620±0.982  inst(edge)= 4.095±2.674  inst(harm)= 7.137±2.007
+alpha=   2.0: base(edge)=-0.531±1.116  base(harm)=-0.292±0.981  inst(edge)= 4.521±2.623  inst(harm)= 7.505±1.983
+alpha=   4.0: base(edge)= 0.159±1.120  base(harm)= 0.370±0.964  inst(edge)= 5.379±2.480  inst(harm)= 8.212±1.900
+alpha=   6.0: base(edge)= 0.837±1.118  base(harm)= 1.017±0.938  inst(edge)= 6.146±2.348  inst(harm)= 8.863±1.837
+Wrote: runs/steering_balanced_qwen25_layer_20_more_neg_alphas.json

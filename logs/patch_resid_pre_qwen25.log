@@ -1,0 +1,10 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+Wrote patching summary to runs/patch_resid_pre_qwen25.json
+Top layers by harmful delta (mean):
+[(23, 7.25625), (22, 7.16953125), (21, 7.11328125), (18, 7.071875), (20, 6.98515625), (19, 6.85078125), (17, 6.65625), (16, 6.54453125)]

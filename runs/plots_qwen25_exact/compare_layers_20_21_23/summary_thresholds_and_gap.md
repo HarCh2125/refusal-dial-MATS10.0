@@ -1,0 +1,8 @@
+| run | model | gap_at_alpha0 | alpha_edge<=target | edge_rate@alpha_edge | harm_rate@alpha_edge | edge_target | alpha_harm<=target | harm_rate@alpha_harm | edge_rate@alpha_harm | harm_target | best_alpha_by_max_gap | best_gap | best_edge_rate | best_harm_rate |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| layer20_hook_resid_pre | inst | 0.0917 |  |  |  | 0.1000 |  |  |  | 0.5000 | -10.0000 | 0.4917 | 0.2833 | 0.7750 |
+| layer20_hook_resid_pre | base | 0.0667 | -1.0000 | 0.0583 | 0.0750 | 0.1000 | 0.0000 | 0.1750 | 0.1083 | 0.5000 | 4.0000 | 0.1625 | 0.5500 | 0.7125 |
+| layer21_hook_resid_pre | inst | 0.0917 |  |  |  | 0.1000 |  |  |  | 0.5000 | -10.0000 | 0.4583 | 0.3917 | 0.8500 |
+| layer21_hook_resid_pre | base | 0.0667 | -1.0000 | 0.0583 | 0.0750 | 0.1000 | 0.0000 | 0.1750 | 0.1083 | 0.5000 | 4.0000 | 0.1125 | 0.5250 | 0.6375 |
+| layer23_hook_resid_pre | inst | 0.0917 |  |  |  | 0.1000 |  |  |  | 0.5000 | -10.0000 | 0.4167 | 0.4833 | 0.9000 |
+| layer23_hook_resid_pre | base | 0.0667 | -1.0000 | 0.0583 | 0.0750 | 0.1000 | 0.0000 | 0.1750 | 0.1083 | 0.5000 | 6.0000 | 0.1208 | 0.6167 | 0.7375 |

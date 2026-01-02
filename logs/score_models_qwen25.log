@@ -1,0 +1,12 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+Saved: runs/qwen25_scores.csv
+           s_base    s_inst     s_gap
+split                                
+edge    -1.232292  3.648958  4.881250
+harmful -0.964063  6.747656  7.711719

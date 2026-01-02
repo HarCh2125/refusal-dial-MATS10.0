@@ -1,0 +1,17 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model qwen2.5-0.5b into HookedTransformer
+Loaded pretrained model qwen2.5-0.5b-instruct into HookedTransformer
+[progress] 25/200
+[progress] 50/200
+[progress] 75/200
+[progress] 100/200
+[progress] 125/200
+[progress] 150/200
+[progress] 175/200
+[progress] 200/200
+[OK] wrote meta: runs/steering_exact_layer21_hook_resid_pre_meta.json
+[OK] wrote csv : runs/steering_exact_layer21_hook_resid_pre_dump.csv
